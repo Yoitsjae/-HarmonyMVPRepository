@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HarmonyMusic - Your Ultimate Music Discovery Platform</title>
-    <meta name="description" content="HarmonyMusic is your ultimate destination for music discovery and recommendation. Explore new artists, discover diverse genres, and share your favorite music with the world.">
+    <title>HarmonyMusic</title>
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -27,11 +26,9 @@
         <div class="container">
             <h1>Welcome to HarmonyMusic</h1>
             <!-- Add introduction message below -->
-            <p>Welcome to HarmonyMusic – your ultimate destination for music discovery and recommendation. Whether
-                you're exploring new genres or rediscovering old favorites, HarmonyMusic is here to guide your musical
-                journey. Get started today and unlock a world of endless possibilities!</p>
+            <p>Welcome to HarmonyMusic – your ultimate destination for music discovery and recommendation. Whether you're exploring new genres or rediscovering old favorites, HarmonyMusic is here to guide your musical journey. Get started today and unlock a world of endless possibilities!</p>
             <!-- End of introduction message -->
-            <a href="#" class="btn">Get Started</a>
+            <button id="openModal" class="btn">Get Started</button>
         </div>
     </section>
 
@@ -41,18 +38,17 @@
         <div class="container">
             <h2>Key Features</h2>
             <div class="feature">
-                <img src="images/artbreeder-image-2024-02-09T09_54_03.689Z.jpeg" alt="Discover Featured Artists" loading="lazy">
+                <img src="images/artbreeder-image-2024-02-09T09_54_03.689Z.jpeg" alt="Discover Featured Artists">
                 <h3>Personalized Recommendations</h3>
                 <p>Discover new artists and songs tailored to your music preferences.</p>
             </div>
             <div class="feature">
-                <img src="images/artbreeder-prompter-2024-02-09T10_07_57.566Z.jpeg"
-                    alt="Get Personalized Music Recommendations" loading="lazy">
+                <img src="images/artbreeder-prompter-2024-02-09T10_07_57.566Z.jpeg" alt="Get Personalized Music Recommendations">
                 <h3>Explore Diverse Genres</h3>
                 <p>Explore a wide range of music genres and expand your musical horizons.</p>
             </div>
             <div class="feature">
-                <img src="images/artbreeder-prompter-2024-02-09T10_09_08.328Z.jpeg" alt="Meet Our Talented Team" loading="lazy">
+                <img src="images/artbreeder-prompter-2024-02-09T10_09_08.328Z.jpeg" alt="Meet Our Talented Team">
                 <h3>Save and Share Favorites</h3>
                 <p>Save your favorite artists and songs, and share them with friends.</p>
             </div>
@@ -64,10 +60,7 @@
         <div class="container">
             <h2>About Us</h2>
             <!-- Add about us message below -->
-            <p>HarmonyMusic was founded by a team of passionate music enthusiasts with the goal of making music discovery
-                more accessible and enjoyable for everyone. Our mission is to provide a platform where users can explore
-                diverse genres, discover new artists, and share their favorite music with the world. Join us on this
-                musical journey and experience the harmony of music!</p>
+            <p>HarmonyMusic was founded by a team of passionate music enthusiasts with the goal of making music discovery more accessible and enjoyable for everyone. Our mission is to provide a platform where users can explore diverse genres, discover new artists, and share their favorite music with the world. Join us on this musical journey and experience the harmony of music!</p>
             <!-- End of about us message -->
             <p>Connect with us on social media:</p>
             <ul>
@@ -75,7 +68,7 @@
                 <li><a href="#">GitHub</a></li>
                 <li><a href="#">Twitter</a></li>
             </ul>
-            <a href="https://github.com/your-username/harmony-music" class="btn">GitHub Repository</a>
+            <a href="https://github.com/Yoitsjae/Harmony/tree/main" class="btn">GitHub Repository</a>
         </div>
     </section>
 
@@ -84,7 +77,15 @@
         <p>&copy; 2024 HarmonyMusic. All rights reserved.</p>
     </footer>
 
-    <!-- JavaScript file -->
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>This is the content of the modal.</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
     <script src="scripts/main.js"></script>
 
 </body>
