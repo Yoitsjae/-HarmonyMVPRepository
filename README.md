@@ -1,19 +1,67 @@
-Project Progress Update: Harmony MVP Completion
-GitHub Link: Harmony MVP Repository
-Progress:
-Rating: 8/10
-Explanation: This week, our team made significant progress towards completing the MVP for Harmony. We successfully integrated the front-end and back-end components, allowing users to register, log in, and search for recommended songs based on their preferences. The core functionalities, as outlined in our project plan, are now implemented and operational.
-Completed as Planned:
-User registration and authentication system
-Song recommendation algorithm integration
-Search functionality for finding recommended songs
-Incomplete Aspects:
-User profile customization features
-Integration of additional external APIs for enhanced song recommendations
-Implementation of real-time chat support for user interaction
-Challenges:
-Technical Challenge:
-The most challenging technical aspect we encountered this week was optimizing the performance of our recommendation algorithm. We faced difficulties in fine-tuning the algorithm parameters to ensure accurate and relevant song suggestions. Through iterative testing and adjustments, we were able to achieve satisfactory results, but it required considerable effort and experimentation.
-Non-Technical Challenge:
-One of the most significant non-technical challenges we faced was managing team coordination and communication effectively. As we progressed towards completing the MVP, coordinating tasks and ensuring alignment among team members became increasingly complex. We addressed this challenge by scheduling regular sync-ups and utilizing project management tools to track progress and assignments.
+# HarmonyMusic
 
+Welcome to HarmonyMusic, your ultimate destination for music discovery and recommendation.
+
+## Introduction
+
+HarmonyMusic is a web application designed to help music enthusiasts discover new artists, explore diverse genres, and create personalized playlists. Whether you're looking to expand your musical horizons or rediscover old favorites, HarmonyMusic is here to guide your musical journey.
+
+## Features
+
+- **Personalized Recommendations**: Discover new artists and songs tailored to your music preferences.
+- **Explore Diverse Genres**: Dive into a wide range of music genres and expand your musical horizons.
+- **Save and Share Favorites**: Save your favorite artists and songs, and share them with friends.
+
+## Technologies Used
+
+- **HTML5**: Markup language for structuring the web pages.
+- **CSS3**: Stylesheet language for styling the web pages.
+- **JavaScript**: Programming language for adding interactivity and dynamic behavior.
+- **GitHub Pages**: Hosting platform for deploying the web application.
+
+## Installation
+
+To run HarmonyMusic locally, follow these steps:
+
+1. Clone the repository:
+
+
+2. Navigate to the project directory:
+
+
+3. Open the `index.html` file in your preferred web browser.
+
+## Usage
+
+Once the web application is running, you can:
+
+- Navigate through different sections using the navigation menu.
+- Explore featured artists and genres.
+- Save your favorite artists and songs.
+- Share your favorite music with friends.
+
+## Contributing
+
+We welcome contributions from the community! If you'd like to contribute to HarmonyMusic, please follow these steps:
+
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear, descriptive messages.
+4. Push your changes to your fork.
+5. Submit a pull request to the main repository.
+
+## Related Projects
+
+- [HarmonyMusic API](https://github.com/your-username/harmony-music-api): Backend API for HarmonyMusic.
+
+## Licensing
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Screenshots
+
+![HarmonyMusic Homepage](screenshots/homepage.png)
+
+## Authors
+
+- [Jae Ncube](https://linkedin.com/in/Jason-Ncube)
